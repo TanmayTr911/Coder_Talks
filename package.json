@@ -4,7 +4,8 @@
   "description": "chat app with mern stack and sockets auth through jwt and passport",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon backend/index.js"
+    "start": "nodemon backend/index.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=flase npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
