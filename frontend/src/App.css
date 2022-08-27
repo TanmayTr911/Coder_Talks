@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    background-image: linear-gradient(rgb(31, 32, 42),rgb(24, 22, 44),rgb(5, 3, 15));
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.title{
+    color: rgb(246, 246, 246);
+    margin-left: 20px;
+   
+    
+}
+
+
+
+
+.prof{
+    margin-left: 37vw;
+        color: black;
+        margin-right: 0px;
+}
+
+.prof2 {
+    display: inline-flex;
+    align-self: flex-end;
+    margin-left:40vw;
+    color: black;
+    margin-right: 0px;
+}
+
+.inp{
+    position: fixed;
+    bottom: 1px;
+    height: 35px;
+    width: 70%;
+    margin-left: 5px;
+}
+
+
